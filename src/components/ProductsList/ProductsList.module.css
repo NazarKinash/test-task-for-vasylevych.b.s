@@ -1,0 +1,53 @@
+.ProductsList {
+  padding-top: 30px;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.Card {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.Link {
+  text-decoration: none;
+  color: #252427;
+}
+
+.Card:hover .Title {
+  color: #eabf00;
+}
+
+.Card:hover {
+  border: 1px solid #eee;
+}
+
+.Img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Title {
+  display: block;
+  position: relative;
+  padding: 0 20px;
+
+  font-size: 16px;
+  margin-top: 10px;
+  text-decoration: underline;
+  color: #1b1a20;
+  font-size: larger;
+}
+
+.Price {
+  font-size: medium;
+  padding: 10px 0;
+}
