@@ -13,8 +13,6 @@ const ProductsList = () => {
     dispatch(asyncGetProducts());
   }, [dispatch]);
 
-  console.log(productsList);
-
   return (
     <div className={styles.ProductsList}>
       {productsList.map((el) => (
